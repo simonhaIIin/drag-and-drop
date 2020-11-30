@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+html {
+    height: 2000px;
+}
+
+.movable-cube {
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+}
+
+.movable-cube p {
+    width: fit-content;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(114, 18, 1, 0.671);
+    font-size: 18px;
+}
